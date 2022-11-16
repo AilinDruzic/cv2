@@ -1,0 +1,69 @@
+{
+    "education": [
+  
+  {
+    "school": "Drottning Blankas Gymnasieskola",
+    "subject": "Samhällsvetenskap",
+    "time": "(2018-2021)"
+
+   
+  },
+  
+  {
+    "school": "Chas Academy",
+    "subject": "Frontend-utvecklare för mobil och webb",
+    "time": "(2022-Pågående)"
+    
+  
+  }
+  
+  
+    ],
+
+    "experience": [
+  
+    {
+       "position": "Medarbetare", 
+       "location": "McDonald's",
+       "time":"(2018-2019)"
+   
+        },
+        
+    {
+        "position": "Säljare",
+        "location": "Coop, Björkhagen",
+        "time": "(2021-nu)"
+        
+        }
+  
+          ],
+
+    "languages": [
+  
+    {
+        "language": "Svenska",
+        "level": "Modersmål"
+        
+              
+            },
+            
+    {
+        "language": "Serbokroatiska",
+        "level": "Modersmål"
+              
+            
+            },
+            
+    {
+        "language": "Engelska",
+        "level": "Grundläggande nivå"   
+            
+            }
+            
+            
+            
+              ]
+      
+  
+  
+  }

@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif Gujarati', serif;
+    font-size: medium;
+    font-style: initial;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-header {
+    font-size: medium;
+    color:rgb(92, 89, 104);
+    display: flex; 
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+h1 {
+    font-family: dancing script;
+}
+
+.main-nav {
+    display: flex; 
+    background-color: rgb(255, 255, 255) ;
+    margin-left: 50%;
+    justify-content: space-between;
+    width: auto;
+    padding-top: 30px;
+    padding-right: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(71, 68, 83); 
+    font-size: larger;
+    
+}
+
+section {
+    background: rgb(181, 180, 180);
+    display: flex;
+    flex-direction: row;
+    padding: 0;   
+}
+
+
+.col-1 {
+    height: 550px;
+    width: 550px;
+    background: rgb(181, 180, 180);
+}
+
+.profil, .profil2  {
+    width: 550px;
+    height: 550px;
+}
+
+.profil3 {
+    width: 450px;
+    height: 320px;
+    padding-bottom: 30px;
+    margin-left: 18%;
+
+}
+.profil4 {
+    width: 300px;
+    height: 320px;
+    padding-bottom: 30px;
+    margin-left: 28%;
+}
+
+.col-2 {
+    background:rgb(181, 180, 180);
+    height: 550px;
+    width: 650px;
+    padding-top: 10%;
+    padding-left: 15%;
+
+}
+
+.col-3 {
+    width: 650px;
+    height: 550px;
+}
+
+.col-4 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col-5, .col-6, .col-a {
+    width: 500px;
+    height: 550px;
+    border: 5px solid rgb(255, 255, 255);
+    padding-left: 10px;
+
+}
+
+.col-7, .col-8 {
+    width: 660px;
+    height: 550px;
+
+}
+
+.col-10 {
+    padding-left: 20%;
+}
+
+.active-page {
+    text-decoration: underline;
+    text-decoration-color: rgb(58, 58, 79);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.765);
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.765);
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.765);
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.765);
+    
+
+}
+
+ul {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.765);
+}
+
+
+
+@media (max-width: 700px) {
+    .container, .main-header, section {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .profil, .profil2 {
+        height: 450px;
+        width: 510px;
+        padding-left: 20%;
+        padding-top: 50px;
+
+    }
+
+    .main-nav {
+        display: flex;
+        align-content: flex-start;
+        margin-left: 0%;
+    }
+
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-a {
+        width: 700px;
+        height: 500px
+    }
+
+    .col-2, .col-10{
+        padding: 0;
+    }
+
+
+
+
+
+
+    
+    
+
+
+    
+}
+
+@media (max-width: 400px) {
+    .container, .main-header, section {
+        display: flex;
+        flex-direction: column;  
+    }
+   
+    .profil, .profil2 {
+        width: 350px;
+        height: 400px;
+        padding-left: 50px;
+        padding-top: 50px;
+        
+    }
+
+    .main-nav {
+        display: flex; 
+        background-color: rgb(255, 255, 255) ;
+        justify-content: space-between;
+        justify-items: flex-start;
+        padding-top: 30px;
+        font-size: 10px;   
+    }
+
+    h3, h4 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-a {
+        width: 400px;
+        height: 500px
+    }
+
+    .col-2,.col-10 {
+        padding: 0;
+    }
+
+    a {
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .profil3, .profil4 {
+        margin-left: 10%;  
+    }
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed; 
+    padding-top: 50px;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: relative; 
+    background-color: white;
+    padding: 20px; 
+    margin: auto; 
+    width: 75%;  
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  .close-btn {
+    float: right; 
+    color: lightgray; 
+    font-size: 24px;  
+    font-weight: bold;
+  }
+  .close-btn:hover {
+    color: darkgray;
+  }
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+
